@@ -11,7 +11,7 @@ function App() {
         const response = await fetch("https://api.api-ninjas.com/v1/cats?name=siamese", {
             method: "GET",
             headers: {
-                "x-api-key": "hTgqdzCr/pU7UDtrEuKJZg==zHD8TBYyJD59ie7n"
+                "x-api-key": "API KEY HERE"
             }
         })
         const data = await response.json()
